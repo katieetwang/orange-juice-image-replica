@@ -94,10 +94,22 @@ display: block;
 
 .middlepart {
   text-align: center;
-  padding: 70px;
+  padding: 70px 70px 0px 0px;
 }
 
 .buttons {
   text-align: center;
   padding: 0 0 20 20;
+}
+
+.web {
+  color: #67D0CF;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.app {
+  color: #67D0CF;
+  font-weight: bold;
+  display: inline-block;
 }
