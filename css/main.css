@@ -6,7 +6,7 @@ nav {
   background-color: #FE7E00;
   text-align: right;
   word-spacing: 50px;
-  padding: 35px;
+  padding: 25px;
 }
 
 nav ul {
@@ -44,6 +44,7 @@ p, .search-box input {
 display: block;
 }
 
+
 /*select any elements with a class of search-buttons and find all button tags inside*/
 .firstbutton {
   background-color: #FE7E00;
@@ -74,11 +75,29 @@ display: block;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 40px;
+  padding: 30px;
   background-color: #67D0CF;
   text-align: center;
 }
 
-.mainpart {
+.maintext {
+  right-width: 500px;
+  font-size: 24px;
+  padding: 20px;
+  color: #FE7E00;
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+}
+
+.middlepart {
   text-align: center;
+  padding: 70px;
+}
+
+.buttons {
+  text-align: center;
+  padding: 0 0 20 20;
 }
