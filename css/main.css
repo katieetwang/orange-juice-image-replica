@@ -1,0 +1,84 @@
+/*insert navigation details here*/
+body {
+  margin: 0;
+}
+nav {
+  background-color: #FE7E00;
+  text-align: right;
+  word-spacing: 50px;
+  padding: 35px;
+}
+
+nav ul {
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*insert searchbox details here*/
+.search-box {
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    padding: 10px;
+}
+
+/*select any elements with a class of search-box and then find any input tags inside*/
+.search-box input {
+width: 250px;
+  margin: 0 auto;
+  background: url(img/searchicon.png);
+  font-size: 16px;
+  display: block;
+  background-color: #F0F0F0;
+  padding: 15px;
+}
+
+p, .search-box input {
+display: block;
+}
+
+/*select any elements with a class of search-buttons and find all button tags inside*/
+.firstbutton {
+  background-color: #FE7E00;
+  border: none;
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+  width: 250px;
+  margin: 10px;
+  padding: 12px;
+  display: inline-block;
+}
+
+.secondbutton {
+  background-color: #67D0CF;
+  border: none;
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+  width: 250px;
+  margin: 10px;
+  padding: 12px;
+  display: inline-block;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  background-color: #67D0CF;
+  text-align: center;
+}
+
+.mainpart {
+  text-align: center;
+}
